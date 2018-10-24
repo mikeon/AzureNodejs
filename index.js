@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
     // response.end("Hello World from App Service_");
 
     // Stage 2
-    response.end('Hello from '  + ' from server: ' + os.hostname() + " with OS: " + os.platform());
+    response.end('Hello from ' + process.env.Lesson + ' server: ' + os.hostname() + " with OS: " + os.platform());
 
 });
 
