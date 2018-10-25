@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/fd565529-ba07-4e54-848d-b1926d648218/resourceGroups/MibnWebApp/providers/Microsoft.Web/sites/MibnWebApp/slots/dev",
+    "appService.deploySubpath": ""
+}
