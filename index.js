@@ -5,7 +5,7 @@ var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
     // response.end("Hello World from App Service");
-    response.end('Hello from ' + process.env.Lesson + ' server: ' + os.hostname() + " with OS: " + os.platform());
+    response.end('Hello 2 from ' + process.env.Lesson + ' server: ' + os.hostname() + " with OS: " + os.platform());
 });
 
 var port = process.env.PORT || 8080;
